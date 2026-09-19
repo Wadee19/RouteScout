@@ -12,7 +12,7 @@ First public stable release.
 - documented no-GNN decision after relational-signal checks;
 - KiCad/PCBWorld order-control feasibility gate;
 - real-board Phase 8B intervention;
-- compact frozen replay tables and executed HTML evidence;
+- compact frozen replay tables, with executed HTML evidence retained in the archival release package;
 - clean Python package, tests, static checks, CI, and reproducibility notes.
 
 ## Frozen public results

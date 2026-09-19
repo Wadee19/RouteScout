@@ -1,10 +1,10 @@
+# Reproducibility and Evidence Chain
+
 ## Public release
 
 This repository is RouteScout **v1.0.0**, the first public stable release. Internal `rc` identifiers
 used during repository cleanup were pre-release engineering checkpoints and are not part of the
 public version history.
-
-# Reproducibility and Evidence Chain
 
 ## Canonical dataset
 
@@ -83,6 +83,8 @@ test is already consumed and must not be used for a new tuning decision.
 ### 3. Replay the frozen router evidence
 
 `notebooks/02_router_mechanism.ipynb` and `notebooks/03_real_board_intervention.ipynb` start from compact frozen run tables included under `results/`. This reproduces the public analysis/visuals without a KiCad rebuild.
+
+All tracked public SVG figures are regenerated from frozen `results/` sources by `scripts/regenerate_public_figures.py`; see `docs/figure_provenance.md` for the exact mapping.
 
 ### 4. Re-run the router intervention
 

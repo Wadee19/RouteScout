@@ -8,6 +8,8 @@ RouteScout is a research/engineering project built around one practical question
 
 **1,182 PCB designs · 47,051 supervised nets · held-out mean board Spearman 0.924 (154 ranking-eligible boards) · Top-5 cost capture 0.981**
 
+Dataset note: 47,101 nets were observed on Phase-2 eligible boards; 47,051 remained as supervised candidates after excluding 45 degenerate-terminal cases and 5 nets with no positive routed length.
+
 ![Validation to held-out generalization](figures/phase9_01_validation_to_test.svg)
 
 
@@ -82,7 +84,8 @@ environment/      dependency specifications (Phase 8 toolchain is pinned)
 The public notebooks are intentionally kept readable and reproducible. Compact frozen result tables
 live under `results/`, and the notebooks replay the released analyses directly from those tables.
 Large generated offline HTML reports are kept out of Git history; `reports/README.md` documents
-their role and the canonical release hashes.
+their role and the canonical release hashes. Public figure provenance is mapped in
+`docs/figure_provenance.md`, and every tracked SVG can be regenerated from frozen tables.
 
 ## Notebooks
 
