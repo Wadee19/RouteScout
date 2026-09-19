@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="380" viewBox="0 0 1400 380" role="img" aria-labelledby="title desc">
+  <title id="title">RouteScout key results</title>
+  <desc id="desc">Three verified RouteScout v1 results: 0.924 mean board-wise Spearman, 0.981 Top-5 cost capture, and a 24-board 72-run real-router intervention.</desc>
+  <rect width="1400" height="380" rx="28" fill="#0b1220"/>
+  <text x="56" y="62" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">Key results</text>
+  <text x="56" y="94" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Frozen v1 results. Top-5 cost capture is a ranking/cost-concentration metric — not accuracy.</text>
+
+  <rect x="56" y="128" width="398" height="190" rx="20" fill="#111c2f" stroke="#334155"/>
+  <text x="88" y="202" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800">0.924</text>
+  <text x="88" y="240" fill="#7dd3fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Mean board-wise Spearman</text>
+  <text x="88" y="276" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">154 held-out ranking-eligible boards</text>
+
+  <rect x="501" y="128" width="398" height="190" rx="20" fill="#111c2f" stroke="#334155"/>
+  <text x="533" y="202" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800">0.981</text>
+  <text x="533" y="240" fill="#6ee7b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Top-5 cost capture</text>
+  <text x="533" y="276" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Held-out cost concentration capture</text>
+
+  <rect x="946" y="128" width="398" height="190" rx="20" fill="#111c2f" stroke="#334155"/>
+  <text x="978" y="202" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="800">24 / 72</text>
+  <text x="978" y="240" fill="#fbbf24" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Boards / policy runs</text>
+  <text x="978" y="276" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Real KiCad/PCBWorld routing-order test</text>
+</svg>
