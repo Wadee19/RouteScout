@@ -46,7 +46,7 @@
   "scripts/bootstrap_phase8a.py": "b0b378ff93863b5051cdbb665906a635a31407a997afca94b88d1858eb42ae4a",
   "scripts/bootstrap_phase8b.py": "872cf70a7c6eab307c162e6836ee8a41ece39dea20415e7a13dff500d4e3bc50",
   "scripts/materialize_phase8b_locked_inputs.py": "46cf15493955fbd1b20c106a759c5c1242ea40de2c6da2e6f0c7bcef687151c0",
-  "scripts/regenerate_public_figures.py": "5daaeeab6e639ce467cad0c6509ed12a3ce4151e9599649c4c2b6244727e0a14",
+  "scripts/regenerate_public_figures.py": "4dbb09e958d5de7acf17e4b34b8829c5984b3792fc0c03c4d8be510868367932",
   "scripts/setup_dev_env.sh": "1682bd3d3b6f2543cd3d43cf97f3442371b72d27f2c9f6ae37e13fa720f527d3",
   "scripts/static_check.py": "02418271aff7aa7f6d55b1510f554ca34a276da9c3d0d89c11ed5fdce24725bc",
   "scripts/verify_frozen_results.py": "18c85d5c8bc5ecdb71cbf09ee449d847fb52a50bd54a051d973efd9e79237db9",
