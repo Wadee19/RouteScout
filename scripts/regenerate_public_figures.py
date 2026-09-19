@@ -203,7 +203,7 @@ def plot_phase8b_primary_ci() -> None:
         fmt="o",
         capsize=5,
     )
-    ax.set_yticks([0], ["MST hard-first − natural"])
+    ax.set_yticks([0], ["MST hard-first - natural"])
     ax.set_xlabel("Mean paired target-routability delta")
     ax.set_title("Primary effect — 95% paired-bootstrap CI")
     ax.spines[["top", "right", "left"]].set_visible(False)
@@ -224,7 +224,7 @@ def plot_phase8b_drc_delta() -> None:
     ax.scatter(range(len(paired)), paired["delta"])
     ax.axhline(0, linestyle="--", linewidth=1)
     ax.set_xlabel("Paired board")
-    ax.set_ylabel("Whole-board DRC ERROR delta\n(hard-first − natural)")
+    ax.set_ylabel("Whole-board DRC ERROR delta\n(hard-first - natural)")
     ax.set_title("Safety diagnostic — DRC error change by board")
     ax.grid(axis="y", alpha=0.18)
     ax.spines[["top", "right"]].set_visible(False)
