@@ -1,0 +1,39 @@
+{
+  "heldout_test": {
+    "mst_spearman": 0.9240179379260456,
+    "mst_spearman_ci95": [
+      0.8901800420156438,
+      0.9519384423172109
+    ],
+    "top5_cost_capture": 0.9809876927692095,
+    "top5_overlap": 0.8428571428571427,
+    "ndcg5": 0.9807474695720548,
+    "mst_log_mae": 0.1416659671644751,
+    "catboost_log_mae": 0.12468492613978792
+  },
+  "phase8b": {
+    "valid_boards": 24,
+    "runs": 72,
+    "api_errors": 0,
+    "exact_order_runs": 72,
+    "hard_minus_natural_routability_mean": 0.012896825397,
+    "hard_minus_natural_routability_ci95": [
+      0.0,
+      0.031770833333
+    ],
+    "hard_minus_natural_drc_mean": -0.083333333333,
+    "hard_minus_natural_drc_ci95": [
+      -0.208333333333,
+      0.0
+    ],
+    "decision": "NO_CLEAR_ROUTABILITY_BENEFIT",
+    "protocol_sha256": "7cbea24ee392b7b29ebf134beb3744135f7038b9a25ee5f2b0898e99bdc8f732",
+    "manifest_sha256": "692357feeaba88bdf978337acd3579233b69cac0edca9172cff1b1b67287fb54",
+    "runner_sha256": "ad97beed8ca97ee98f50634724269987c260c2f764642c75c71b4722a15344a0"
+  },
+  "frozen_releases": {
+    "phase7_release_sha256": "e32432bd7c02c9defe1a40e42f94120ddc07e21a901b1f7d1b8dd166f815fac6",
+    "phase8a_release_sha256": "cc65bec2fae71ea480f75df04c0d9fa254b9efa6df100f45910d906cea267790",
+    "phase8b_release_sha256": "da003a672157b5a44e1c6f6cb17802e9735ab02626b0a0b6c89f235300b0b24b"
+  }
+}

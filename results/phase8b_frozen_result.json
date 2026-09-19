@@ -1,0 +1,64 @@
+{
+  "common_valid_boards": 1,
+  "decision": "NO_CLEAR_ROUTABILITY_BENEFIT",
+  "drc_harm_flag": false,
+  "easy_first_posthoc_promotion_allowed": false,
+  "eligible_boards": 24,
+  "hard_minus_natural": {
+    "action_failure_count": {
+      "ci95": [
+        -0.20833333333333334,
+        0.0
+      ],
+      "mean": -0.08333333333333333,
+      "n": 24
+    },
+    "target_clean_success": {
+      "ci95": [
+        0.0,
+        0.125
+      ],
+      "mean": 0.041666666666666664,
+      "n": 24
+    },
+    "target_routability": {
+      "ci95": [
+        0.0,
+        0.03177083333333298
+      ],
+      "mean": 0.012896825396825398,
+      "n": 24
+    },
+    "via_count_common_valid": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "n": 1
+    },
+    "whole_board_drc_errors": {
+      "ci95": [
+        -0.20833333333333334,
+        0.0
+      ],
+      "mean": -0.08333333333333333,
+      "n": 24
+    },
+    "wirelength_mm_common_valid": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "n": 1
+    }
+  },
+  "manifest_sha256": "692357feeaba88bdf978337acd3579233b69cac0edca9172cff1b1b67287fb54",
+  "phase": "08B",
+  "phase7_model_changed": false,
+  "protocol_sha256": "7cbea24ee392b7b29ebf134beb3744135f7038b9a25ee5f2b0898e99bdc8f732",
+  "routability_ceiling": false,
+  "runner_sha256": "ad97beed8ca97ee98f50634724269987c260c2f764642c75c71b4722a15344a0",
+  "valid_boards": 24
+}

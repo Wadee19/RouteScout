@@ -1,0 +1,5 @@
+model,metric,validation,test,test_minus_validation
+MST-only,mean_board_spearman,0.951765,0.9240179379260456,-0.027747062073954387
+MST-only,mean_top5_cost_capture,0.991989,0.9809876927692095,-0.011001307230790514
+MST-only,mean_top5_overlap,0.8925,0.8428571428571427,-0.04964285714285721
+CatBoost residual + relational,mae_log,0.113211,0.12468492613978792,0.011473926139787913

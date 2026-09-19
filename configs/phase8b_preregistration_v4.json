@@ -1,0 +1,121 @@
+{
+  "analysis": {
+    "board_weighting": "equal",
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 47,
+    "drc_harm": "paired whole-board DRC ERROR delta CI lower bound > 0",
+    "easy_first_decision_role": "none",
+    "otherwise": "NO_CLEAR_ENGINEERING_BENEFIT",
+    "paired": true,
+    "primary_comparison": "mst_hard_first - natural",
+    "routability_harm": "paired 95% bootstrap CI upper bound < 0",
+    "routability_support": "paired 95% bootstrap CI lower bound > 0",
+    "unit": "board",
+    "wirelength_ceiling_support": "if universal routability ceiling, common-valid paired wirelength delta CI upper bound < 0"
+  },
+  "board_sampling": {
+    "easy_final_selection": "first up to 10 structurally eligible easy boards in official d3.json order; require at least 3",
+    "easy_structural_source_frame": "ALL official easy.test boards in configs/datasets/d3.json, screened without policy routing outcomes",
+    "hard_source_frame": "original fixed 10 hard.test boards from v3; unchanged",
+    "medium_source_frame": "original fixed 10 medium.test boards from v3; unchanged",
+    "outcome_based_selection": false,
+    "routing_outcomes_available_at_amendment": false,
+    "source": "PCBWorld v1.0.0 shipped D3 test split"
+  },
+  "endpoints": {
+    "ceiling_fallback": "whole-board wirelength on common-valid boards if natural and hard-first both have target routability 1.0 on every analyzed board",
+    "primary": "canonical target routability from eval.metrics.compute_metrics_inline",
+    "safety": "whole-board DRC ERROR count after target routing",
+    "secondary": [
+      "target success",
+      "target-scoped DRC ERROR count",
+      "full-clean target completion",
+      "whole-board via count on common-valid boards",
+      "action-success diagnostics",
+      "elapsed time descriptive only"
+    ]
+  },
+  "forbidden": [
+    "Phase 7 retuning or recalibration",
+    "changing the fixed 30-board source list after routing outcomes",
+    "changing target eligibility after routing outcomes",
+    "changing the stable-hash cap after routing outcomes",
+    "different within-net procedure by policy",
+    "changing routing_mode by policy",
+    "post-hoc promotion of easy-first or any new policy",
+    "using Phase 8B to reopen Phase 7 model selection"
+  ],
+  "frozen_parents": {
+    "phase7_prediction_lock_sha256": "ac512b5f6ce45f45e87d0d36525ab7ada78a042cc6bbe7bc99a3e0b9ce468018",
+    "phase7_release_sha256": "e32432bd7c02c9defe1a40e42f94120ddc07e21a901b1f7d1b8dd166f815fac6",
+    "phase8a_release_sha256": "cc65bec2fae71ea480f75df04c0d9fa254b9efa6df100f45910d906cea267790",
+    "ranking_model": "MST-only"
+  },
+  "phase": "08B",
+  "phase8b_routing_outcomes_seen_before_v3": false,
+  "phase8b_routing_outcomes_seen_before_v4": false,
+  "pinned_sources": {
+    "engine_commit": "a6430fd44b65e0b6653fe49041a18d8d4d724890",
+    "kicad_version": "9.0.8",
+    "pcbench_commit": "dec3be75cbdef74787625f9043c7391cd473bb64",
+    "pcbworld_commit": "ed411746224fb82d876248798a61db11b1ca3866",
+    "pcbworld_version": "v1.0.0"
+  },
+  "policies": {
+    "mst_easy_first": "ascending terminal MST; net_id tie break; negative-control description only",
+    "mst_hard_first": "descending terminal MST; for two-pad nets terminal MST equals pad-to-pad Euclidean distance; net_id tie break",
+    "natural": "ascending numeric net_id"
+  },
+  "preregistration_sha256": "7cbea24ee392b7b29ebf134beb3744135f7038b9a25ee5f2b0898e99bdc8f732",
+  "project": "RouteScout",
+  "protocol_version": "v4_preoutcome_structural_expansion",
+  "run_design": {
+    "engine_seed": 77,
+    "maximum_api_error_fraction": 0.1,
+    "minimum_eligible_boards": 15,
+    "minimum_eligible_per_difficulty": 3,
+    "one_deterministic_run_per_board_policy": true,
+    "policies_per_board": 3,
+    "reset_seed": 47
+  },
+  "structural_gate": {
+    "endpoint_changed": false,
+    "minimum_eligible_per_difficulty": 3,
+    "minimum_total_eligible_boards": 15,
+    "policy_changed": false,
+    "target_rule_changed": false,
+    "thresholds_changed": false
+  },
+  "supersedes": [
+    "Phase8B prereg v1 generated before any Phase8B routing outcome",
+    "Phase8B prereg v2 generated before any Phase8B routing outcome",
+    "Phase8B prereg v3 structural source-frame plan; stopped before routing outcomes"
+  ],
+  "supersession_reason": "The v3 preregistered 30-board structural screen produced 14 eligible boards and zero eligible easy boards, so the prespecified minimum-total and minimum-easy feasibility gate stopped before any policy routing. v4 preserves every target-net rule, policy, endpoint, threshold and statistical rule, and expands only the easy pre-outcome structural source frame to the complete official D3 easy.test list.",
+  "target_rule": {
+    "born_closed_after_target_strip": "exclude before policy runs",
+    "candidate": "exactly 2 pads, positive terminal Euclidean distance, both pad observations on the same routing layer",
+    "cap_rule": "stable SHA256(d3_id|net_id), independent of MST and all routing outcomes",
+    "max_targets_per_board": 12,
+    "minimum_targets_per_board": 4,
+    "non_target_designer_routing": "preserved",
+    "require_hard_order_differs_from_natural": true
+  },
+  "within_net": {
+    "action_failure_handling": "issue the frozen four-action sequence for every requested net without action-success-based early stopping; record each action_success/action_class. Only Python/native exceptions are API errors.",
+    "eligibility": "same-layer exactly-two-pad target nets",
+    "pad_order": "ascending pad key, exactly matching frozen Phase 8A runner semantics",
+    "procedure": [
+      "net_select",
+      "start_route",
+      "make_line",
+      "net_end"
+    ],
+    "routing_mode": 2,
+    "routing_mode_name": "walkaround",
+    "same_action_sequence_as_phase8a": true,
+    "same_for_all_policies": true,
+    "start_pad": "first pad by pad key",
+    "target_pad": "second pad by pad key"
+  }
+}

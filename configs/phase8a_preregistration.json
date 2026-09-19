@@ -1,0 +1,47 @@
+{
+  "engine": {
+    "environment": "PCBWorld",
+    "routing_engine": "pinned KiCad PNS push-and-shove engine",
+    "version": "v1.0.0"
+  },
+  "forbidden": [
+    "changing the Phase 7 ranking model",
+    "tuning MST",
+    "choosing policy parameters from pilot outcomes",
+    "claiming router improvement from Phase 8A"
+  ],
+  "frozen_parent": {
+    "phase7_release_sha256": "e32432bd7c02c9defe1a40e42f94120ddc07e21a901b1f7d1b8dd166f815fac6",
+    "prediction_lock_sha256": "ac512b5f6ce45f45e87d0d36525ab7ada78a042cc6bbe7bc99a3e0b9ce468018",
+    "ranking_model": "MST-only"
+  },
+  "pass_gate": {
+    "minimum_boards_all_policies_complete_without_api_error": 2,
+    "performance_improvement_required": false,
+    "requested_order_must_equal_realized_order": true,
+    "same_input_board_hash_across_policies": true
+  },
+  "phase": "08A",
+  "pilot_max_boards": 3,
+  "policies": {
+    "mst_easy_first": "ascending terminal MST negative-control order",
+    "mst_hard_first": "descending terminal MST; for two-pad nets this is pad-to-pad Euclidean distance",
+    "natural": "ascending numeric net id"
+  },
+  "preregistration_sha256": "22850354cfbad0ca73db36f2d8bbec841f6f3bf443de36b2670f41ad5508e536",
+  "purpose": "technical intervention feasibility only",
+  "repeats_per_policy": 2,
+  "within_net_rule": {
+    "actions": [
+      "net_select",
+      "start_route",
+      "make_line",
+      "net_end"
+    ],
+    "eligibility": "exactly two pads per routable net in Phase 8A",
+    "routing_mode": 2,
+    "routing_mode_name": "walkaround",
+    "start": "deterministic first pad by pad key",
+    "target": "deterministic second pad by pad key"
+  }
+}

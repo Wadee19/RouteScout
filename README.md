@@ -8,7 +8,7 @@ RouteScout is a research/engineering project built around one practical question
 
 **1,182 PCB designs · 47,051 supervised nets · held-out mean board Spearman 0.924 (154 ranking-eligible boards) · Top-5 cost capture 0.981**
 
-![Validation to held-out generalization](figures/phase9_01_validation_to_test.png)
+![Validation to held-out generalization](figures/phase9_01_validation_to_test.svg)
 
 
 ## Evidence flow
@@ -35,7 +35,7 @@ Terminal MST length was the strongest ranking rule. On the one-time held-out tes
 
 The router experiment produced a different kind of result: explicit net order was controllable, but **MST-hard-first did not establish a clear routability benefit** under the preregistered confidence-interval rule.
 
-![Phase 8B primary effect](figures/phase8b_02_primary_delta_ci.png)
+![Phase 8B primary effect](figures/phase8b_02_primary_delta_ci.svg)
 
 That negative result is part of the project, not something hidden by a later tuning pass.
 
@@ -71,7 +71,7 @@ notebooks/        four readable public notebooks
 configs/          frozen Phase 8 protocol / manifest inputs
 results/          compact frozen metrics and replay tables
 figures/          selected evidence figures
-reports/          frozen offline HTML reports
+reports/          notes for generated offline evidence (not stored in Git history)
 docs/             methodology, limitations, reproducibility and scientific history
 scripts/          bootstrap and verification utilities
 environment/      dependency specifications (Phase 8 toolchain is pinned)
@@ -79,9 +79,10 @@ environment/      dependency specifications (Phase 8 toolchain is pinned)
 
 ## Executed evidence
 
-The public notebooks are intentionally kept readable and reproducible. Frozen executed evidence is
-also included under `reports/` as offline HTML, while compact frozen result tables live under
-`results/`. This keeps the Git history small without hiding the executed scientific record.
+The public notebooks are intentionally kept readable and reproducible. Compact frozen result tables
+live under `results/`, and the notebooks replay the released analyses directly from those tables.
+Large generated offline HTML reports are kept out of Git history; `reports/README.md` documents
+their role and the canonical release hashes.
 
 ## Notebooks
 
@@ -138,7 +139,7 @@ Phase 8 uses a pinned PCBWorld/KiCad toolchain and is intentionally kept separat
 | NDCG@5 | **0.9807** |
 | log-MAE | **0.1417** |
 
-![Held-out board-wise ranking](figures/phase7_heldout_board_spearman_cdf.png)
+![Held-out board-wise ranking](figures/phase7_heldout_board_spearman_cdf.svg)
 
 ## Real-router intervention
 
@@ -148,7 +149,7 @@ For MST-hard-first minus natural order, the mean target-routability delta was **
 
 **Frozen decision: `NO_CLEAR_ROUTABILITY_BENEFIT`.**
 
-![Paired routability](figures/phase8b_01_paired_routability.png)
+![Paired routability](figures/phase8b_01_paired_routability.svg)
 
 ## Claim boundary
 

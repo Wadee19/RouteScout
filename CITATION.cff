@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use RouteScout in research, please cite this repository."
+title: "RouteScout: Pre-routing PCB Net Cost Ranking and Router Intervention"
+version: 1.0.0
+date-released: 2026-09-19
+authors:
+  - family-names: "Warda"
+    given-names: "Ahmed Wadee"
+license: MIT
+repository-code: "https://github.com/Wadee19/RouteScout"

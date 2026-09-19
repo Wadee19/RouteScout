@@ -1,0 +1,4228 @@
+{
+  "amendment": "v4_preoutcome_structural_expansion",
+  "boards": [
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0003_kitspace_grove_adaptor",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/kitspace_grove_adaptor/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "c18caa1d4855812c4bd7d1a1a886445a0230b1a7175a8901e9adde7950c60afb",
+      "orders": {
+        "mst_easy_first": [
+          3,
+          2,
+          4,
+          1
+        ],
+        "mst_hard_first": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "natural": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 183.5,
+            "y": 97.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 182.5,
+            "y": 93.5
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 181.0,
+            "y": 97.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 180.5,
+            "y": 93.5
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 178.5,
+            "y": 97.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 178.5,
+            "y": 93.5
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 176.0,
+            "y": 97.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 176.5,
+            "y": 93.5
+          }
+        ]
+      },
+      "prefix": "0003",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/kitspace_grove_adaptor/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "9bda841db537138f018c5e2b87e545192e046406f27fa99ff7a4e9656f8f11d3",
+      "sample": "kitspace_grove_adaptor",
+      "target_count": 4,
+      "target_nets": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "terminal_mst_mm": {
+        "1": 4.123105625617661,
+        "2": 4.031128874149275,
+        "3": 4.0,
+        "4": 4.031128874149275
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0011_PixyWirelessShield_Shield PIXY",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/PixyWirelessShield_Shield PIXY/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "6f58b2c6694c37055c1de8cb6c85ac29b845de7ad87ef122fa9bf36fd728cd6e",
+      "orders": {
+        "mst_easy_first": [
+          10,
+          2,
+          3,
+          1,
+          4
+        ],
+        "mst_hard_first": [
+          4,
+          1,
+          3,
+          2,
+          10
+        ],
+        "natural": [
+          1,
+          2,
+          3,
+          4,
+          10
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 243.1161,
+            "y": 35.1536
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 214.49,
+            "y": 46.99
+          }
+        ],
+        "10": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 245.6561,
+            "y": 45.3136
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 237.49,
+            "y": 52.07
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 245.6561,
+            "y": 35.1536
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 237.49,
+            "y": 54.61
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 243.1161,
+            "y": 37.6936
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 214.49,
+            "y": 44.45
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 245.6561,
+            "y": 37.6936
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 214.49,
+            "y": 49.53
+          }
+        ]
+      },
+      "prefix": "0011",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/PixyWirelessShield_Shield PIXY/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "c5dbf1add87250357dce1671b52b9762b3af4b7633c5465fe469d4152c4b681e",
+      "sample": "PixyWirelessShield_Shield PIXY",
+      "target_count": 5,
+      "target_nets": [
+        1,
+        2,
+        3,
+        4,
+        10
+      ],
+      "terminal_mst_mm": {
+        "1": 30.976668093421523,
+        "10": 10.598779654752711,
+        "2": 21.100632459004636,
+        "3": 29.41262555723305,
+        "4": 33.33805864428821
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0017_Blink-Eras_AVR_ISP_Pogo",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/Blink-Eras_AVR_ISP_Pogo/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "e531bf4fb9ed78bdbcfc9935bfa913e1a47c845dd2ef4397857c2569363c297b",
+      "orders": {
+        "mst_easy_first": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "mst_hard_first": [
+          4,
+          5,
+          6,
+          1,
+          2,
+          3
+        ],
+        "natural": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 145.9611,
+            "y": 111.3536
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 145.9611,
+            "y": 96.1136
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 148.5011,
+            "y": 111.3536
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 148.5011,
+            "y": 96.1136
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 151.0411,
+            "y": 111.3536
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 151.0411,
+            "y": 96.1136
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 145.9611,
+            "y": 113.8936
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 145.9611,
+            "y": 98.6536
+          }
+        ],
+        "5": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 148.5011,
+            "y": 113.8936
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 148.5011,
+            "y": 98.6536
+          }
+        ],
+        "6": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 151.0411,
+            "y": 113.8936
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 151.0411,
+            "y": 98.6536
+          }
+        ]
+      },
+      "prefix": "0017",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/Blink-Eras_AVR_ISP_Pogo/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "66371556298bcad6520960b44be30522e69ee05aca6d0851ea3b3dc902aaa21c",
+      "sample": "Blink-Eras_AVR_ISP_Pogo",
+      "target_count": 6,
+      "target_nets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "terminal_mst_mm": {
+        "1": 15.239999999999995,
+        "2": 15.239999999999995,
+        "3": 15.239999999999995,
+        "4": 15.240000000000009,
+        "5": 15.240000000000009,
+        "6": 15.240000000000009
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0027_ID-FIX_scanConnect",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/ID-FIX_scanConnect/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "f68e7ef8c1f612f3aab0346a253d87f68db4163efbd97825bb9061624b2d9115",
+      "orders": {
+        "mst_easy_first": [
+          3,
+          1,
+          2,
+          4
+        ],
+        "mst_hard_first": [
+          4,
+          2,
+          1,
+          3
+        ],
+        "natural": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 167.767,
+            "y": 86.995
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 165.862,
+            "y": 91.948
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 165.227,
+            "y": 86.995
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 164.592,
+            "y": 94.488
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 162.687,
+            "y": 86.995
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 163.322,
+            "y": 91.948
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 160.147,
+            "y": 86.995
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 162.052,
+            "y": 94.488
+          }
+        ]
+      },
+      "prefix": "0027",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/ID-FIX_scanConnect/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "ee0f486922eb1a75dfb1822f31c3a0e37fe5e05307dd87897998e8c5e00b270a",
+      "sample": "ID-FIX_scanConnect",
+      "target_count": 4,
+      "target_nets": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "terminal_mst_mm": {
+        "1": 5.30671593360714,
+        "2": 7.519858642288425,
+        "3": 4.993539225839712,
+        "4": 7.7313694776540025
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0028_hardware-designs_c-trigger",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/hardware-designs_c-trigger/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "e3aef2331d7d339a7d71899b69f0038cf061908ea59b0f07f7965cbab322ec94",
+      "orders": {
+        "mst_easy_first": [
+          3,
+          4,
+          7,
+          2,
+          5,
+          6
+        ],
+        "mst_hard_first": [
+          6,
+          5,
+          2,
+          7,
+          4,
+          3
+        ],
+        "natural": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "pad_geometry": {
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 203.2,
+            "y": 139.7
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 207.01,
+            "y": 135.89
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 195.58,
+            "y": 135.89
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 199.39,
+            "y": 135.89
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 238.76,
+            "y": 135.89
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 234.95,
+            "y": 135.89
+          }
+        ],
+        "5": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 219.07,
+            "y": 140.43
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 205.74,
+            "y": 142.24
+          }
+        ],
+        "6": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 217.17,
+            "y": 143.43
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 233.68,
+            "y": 142.24
+          }
+        ],
+        "7": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 231.14,
+            "y": 139.7
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 227.33,
+            "y": 135.89
+          }
+        ]
+      },
+      "prefix": "0028",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/hardware-designs_c-trigger/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "08d3271b8d662856e3f2c290ebba8a4eb09dc1d0b12bc8fd465535876fadbead",
+      "sample": "hardware-designs_c-trigger",
+      "target_count": 6,
+      "target_nets": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "terminal_mst_mm": {
+        "2": 5.388153672641495,
+        "3": 3.809999999999974,
+        "4": 3.8100000000000023,
+        "5": 13.452323219429408,
+        "6": 16.55283057365116,
+        "7": 5.388153672641475
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0031_kitspace_Potentiometer_mount_4LED",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/kitspace_Potentiometer_mount_4LED/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "55e184abc15a01e62dfea38c2d3f549cd470cb94f4476629d8ffaf2088d007a2",
+      "orders": {
+        "mst_easy_first": [
+          5,
+          6,
+          7,
+          1,
+          2,
+          3,
+          8,
+          4
+        ],
+        "mst_hard_first": [
+          4,
+          8,
+          3,
+          2,
+          1,
+          7,
+          6,
+          5
+        ],
+        "natural": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 124.6,
+            "y": 79.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 121.0,
+            "y": 57.3
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 127.1,
+            "y": 79.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 131.16,
+            "y": 57.3
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 129.6,
+            "y": 79.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 141.32,
+            "y": 57.3
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 132.1,
+            "y": 79.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 151.48,
+            "y": 57.3
+          }
+        ],
+        "5": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 150.4,
+            "y": 79.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 154.02,
+            "y": 62.38
+          }
+        ],
+        "6": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 147.9,
+            "y": 79.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 143.86,
+            "y": 62.38
+          }
+        ],
+        "7": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 145.4,
+            "y": 79.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 133.7,
+            "y": 62.38
+          }
+        ],
+        "8": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 142.9,
+            "y": 79.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 123.54,
+            "y": 62.38
+          }
+        ]
+      },
+      "prefix": "0031",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/kitspace_Potentiometer_mount_4LED/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "aa0a28425e5401287aea341ebc6a72c324f637a2f4463d4dec5613ef5e24ee07",
+      "sample": "kitspace_Potentiometer_mount_4LED",
+      "target_count": 8,
+      "target_nets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "terminal_mst_mm": {
+        "1": 22.489997776789576,
+        "2": 22.568198864774303,
+        "3": 25.103752707513674,
+        "4": 29.469041382440658,
+        "5": 17.498537081710573,
+        "6": 17.59022455797537,
+        "7": 20.736065200514787,
+        "8": 25.843838724152413
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0032_kitspace_Potentiometer_mount_8LED",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/kitspace_Potentiometer_mount_8LED/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "862b65ba0e7cfd7f105a9ac65106db25dee2f0338fd94a4a9f328661fd3ae3e5",
+      "orders": {
+        "mst_easy_first": [
+          4,
+          3,
+          5,
+          2,
+          1,
+          6,
+          7,
+          8
+        ],
+        "mst_hard_first": [
+          8,
+          7,
+          6,
+          1,
+          2,
+          5,
+          3,
+          4
+        ],
+        "natural": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 142.6,
+            "y": 87.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 121.0,
+            "y": 57.3
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 144.6,
+            "y": 87.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 131.16,
+            "y": 57.3
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 146.6,
+            "y": 87.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 141.32,
+            "y": 57.3
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 148.6,
+            "y": 87.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 151.48,
+            "y": 57.3
+          }
+        ],
+        "5": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 174.3,
+            "y": 87.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 154.02,
+            "y": 62.38
+          }
+        ],
+        "6": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 172.3,
+            "y": 87.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 143.86,
+            "y": 62.38
+          }
+        ],
+        "7": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 170.3,
+            "y": 87.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 133.7,
+            "y": 62.38
+          }
+        ],
+        "8": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 168.3,
+            "y": 87.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 123.54,
+            "y": 62.38
+          }
+        ]
+      },
+      "prefix": "0032",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/kitspace_Potentiometer_mount_8LED/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "42da353ceffae81c77f9d5d3d7f12a3cf79cf19de3242f0fbf53da45f08d8238",
+      "sample": "kitspace_Potentiometer_mount_8LED",
+      "target_count": 8,
+      "target_nets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "terminal_mst_mm": {
+        "1": 37.129503093900944,
+        "2": 33.05561374411312,
+        "3": 30.658088655361414,
+        "4": 30.33701369614353,
+        "5": 32.28455977708229,
+        "6": 37.94532909331529,
+        "7": 44.391152271595764,
+        "8": 51.32710784760817
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0033_breakout-boards_swd-to-wires",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/breakout-boards_swd-to-wires/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "bfd6f6b458397383c05cdc214970bea61b355a09cfabb2cb343c555bb4775c66",
+      "orders": {
+        "mst_easy_first": [
+          9,
+          8,
+          3,
+          6,
+          2,
+          1,
+          5
+        ],
+        "mst_hard_first": [
+          5,
+          1,
+          2,
+          6,
+          3,
+          8,
+          9
+        ],
+        "natural": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 149.86,
+            "y": 100.33
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 143.51,
+            "y": 92.075
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 147.32,
+            "y": 100.33
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 143.51,
+            "y": 90.805
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 149.86,
+            "y": 97.79
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 144.78,
+            "y": 92.075
+          }
+        ],
+        "5": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 142.24,
+            "y": 100.33
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 148.59,
+            "y": 90.805
+          }
+        ],
+        "6": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 142.24,
+            "y": 97.79
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 148.59,
+            "y": 92.075
+          }
+        ],
+        "8": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 144.78,
+            "y": 97.79
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 147.32,
+            "y": 92.075
+          }
+        ],
+        "9": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 147.32,
+            "y": 97.79
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 146.05,
+            "y": 92.075
+          }
+        ]
+      },
+      "prefix": "0033",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/breakout-boards_swd-to-wires/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "ed3d00121dd25a60fcc2df1ab71288005460b271b8f85c7aafe48f7f70d1a61c",
+      "sample": "breakout-boards_swd-to-wires",
+      "target_count": 7,
+      "target_nets": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "terminal_mst_mm": {
+        "1": 10.41477436145403,
+        "2": 10.258738957591223,
+        "3": 7.646412557533118,
+        "5": 11.447625299598156,
+        "6": 8.543051269891803,
+        "8": 6.254024704140527,
+        "9": 5.854410730380983
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0035_KiCad-Like-a-Pro-Tutorial_rf24-breakout-v1",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/KiCad-Like-a-Pro-Tutorial_rf24-breakout-v1/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "9999d801eb97c2a14f5af51ebfbb28d9d6426a4ebcf579472545048abff0ea0e",
+      "orders": {
+        "mst_easy_first": [
+          1,
+          2,
+          4,
+          3,
+          5,
+          6
+        ],
+        "mst_hard_first": [
+          6,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "natural": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 177.8,
+            "y": 109.22
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 168.275,
+            "y": 99.06
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 177.8,
+            "y": 106.68
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 165.735,
+            "y": 99.06
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 177.8,
+            "y": 104.14
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 163.195,
+            "y": 99.06
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 175.26,
+            "y": 104.14
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 160.655,
+            "y": 99.06
+          }
+        ],
+        "5": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 175.26,
+            "y": 106.68
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 158.115,
+            "y": 99.06
+          }
+        ],
+        "6": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 175.26,
+            "y": 109.22
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 155.575,
+            "y": 99.06
+          }
+        ]
+      },
+      "prefix": "0035",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/KiCad-Like-a-Pro-Tutorial_rf24-breakout-v1/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "d4489b5819af6fce4ef6cf0cfa249842d79cefdc1375b09cc0fe11fecbdfdfb2",
+      "sample": "KiCad-Like-a-Pro-Tutorial_rf24-breakout-v1",
+      "target_count": 6,
+      "target_nets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "terminal_mst_mm": {
+        "1": 13.926637246657933,
+        "2": 14.269850209445087,
+        "3": 15.463260490595136,
+        "4": 15.46326049059511,
+        "5": 18.762074112421566,
+        "6": 22.15230969899076
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0036_nRF24breakoutBoard_nRF24-breakout",
+      "difficulty": "easy",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/nRF24breakoutBoard_nRF24-breakout/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "dee694d5c9ef815afd2379e108d45eeafabea630b9a196b1340a5d59c7c10863",
+      "orders": {
+        "mst_easy_first": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "mst_hard_first": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "natural": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 157.098,
+            "y": 110.219
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 157.274,
+            "y": 104.796
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 159.638,
+            "y": 110.219
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 154.734,
+            "y": 104.796
+          }
+        ],
+        "3": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 162.178,
+            "y": 110.219
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 157.274,
+            "y": 102.256
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 164.718,
+            "y": 110.219
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 154.734,
+            "y": 102.256
+          }
+        ],
+        "5": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 167.258,
+            "y": 110.219
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 157.274,
+            "y": 99.716
+          }
+        ],
+        "6": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 169.798,
+            "y": 110.219
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 154.734,
+            "y": 99.716
+          }
+        ]
+      },
+      "prefix": "0036",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/easy_expansion_v4/newdrc/nRF24breakoutBoard_nRF24-breakout/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "cedd0a4ed5abd1d22f3907681f3da854a11290992bd72f893ddda81a64b150ec",
+      "sample": "nRF24breakoutBoard_nRF24-breakout",
+      "target_count": 6,
+      "target_nets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "terminal_mst_mm": {
+        "1": 5.425855232126993,
+        "2": 7.311507710452053,
+        "3": 9.351929480059175,
+        "4": 12.770654838339322,
+        "5": 14.49114436474912,
+        "6": 18.364016581347332
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0113_maytal_Maytal",
+      "difficulty": "medium",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/maytal_Maytal/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "34fe8cfbea3c4b5610d5f82b46827ab9bfd74776fcb7f7341a13439213fdae1e",
+      "orders": {
+        "mst_easy_first": [
+          29,
+          14,
+          13,
+          10,
+          11,
+          12,
+          27,
+          7,
+          28,
+          8,
+          19
+        ],
+        "mst_hard_first": [
+          19,
+          8,
+          28,
+          7,
+          27,
+          11,
+          12,
+          10,
+          13,
+          14,
+          29
+        ],
+        "natural": [
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          19,
+          27,
+          28,
+          29
+        ]
+      },
+      "pad_geometry": {
+        "10": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 129.69,
+            "y": 95.675
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 117.79,
+            "y": 85.22
+          }
+        ],
+        "11": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 127.15,
+            "y": 95.675
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 115.25,
+            "y": 85.22
+          }
+        ],
+        "12": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 124.61,
+            "y": 95.675
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 112.71,
+            "y": 85.22
+          }
+        ],
+        "13": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 119.53,
+            "y": 95.675
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 110.17,
+            "y": 85.22
+          }
+        ],
+        "14": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 114.45,
+            "y": 95.675
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 107.63,
+            "y": 85.22
+          }
+        ],
+        "19": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 94.0,
+            "y": 117.1
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 117.79,
+            "y": 69.98
+          }
+        ],
+        "27": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 96.45,
+            "y": 81.87
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 124.14,
+            "y": 72.52
+          }
+        ],
+        "28": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 96.45,
+            "y": 84.41
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 126.68,
+            "y": 72.52
+          }
+        ],
+        "29": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 94.0,
+            "y": 120.6
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 93.6,
+            "y": 109.8
+          }
+        ],
+        "7": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 96.45,
+            "y": 74.25
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 125.41,
+            "y": 85.22
+          }
+        ],
+        "8": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 93.6,
+            "y": 108.53
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 122.87,
+            "y": 85.22
+          }
+        ]
+      },
+      "prefix": "0113",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/maytal_Maytal/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "7101274c10e689f3f59659d71bcd54afd2e46e33867b781712b9d6aa17823fee",
+      "sample": "maytal_Maytal",
+      "target_count": 11,
+      "target_nets": [
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        19,
+        27,
+        28,
+        29
+      ],
+      "terminal_mst_mm": {
+        "10": 15.840360633520936,
+        "11": 15.840360633520946,
+        "12": 15.840360633520946,
+        "13": 14.032698421900186,
+        "14": 12.48276511835419,
+        "19": 52.78502154967827,
+        "27": 29.22599185656494,
+        "28": 32.48422694170203,
+        "29": 10.807404868885035,
+        "7": 30.968088413720334,
+        "8": 37.41776316136496
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0260_NiMH-Charger_NiMH Charger",
+      "difficulty": "medium",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/NiMH-Charger_NiMH Charger/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "94e55d653ba0ec414dc7ecb9da4412355615e8bfbcc2c1c53a52f74939139047",
+      "orders": {
+        "mst_easy_first": [
+          14,
+          15,
+          16,
+          17,
+          19,
+          20
+        ],
+        "mst_hard_first": [
+          20,
+          19,
+          14,
+          15,
+          16,
+          17
+        ],
+        "natural": [
+          14,
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      },
+      "pad_geometry": {
+        "14": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 125.73,
+            "y": 113.03
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 121.92,
+            "y": 113.03
+          }
+        ],
+        "15": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 125.73,
+            "y": 105.41
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 121.92,
+            "y": 105.41
+          }
+        ],
+        "16": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 125.73,
+            "y": 102.87
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 121.92,
+            "y": 102.87
+          }
+        ],
+        "17": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 125.73,
+            "y": 97.79
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 121.92,
+            "y": 97.79
+          }
+        ],
+        "19": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 140.97,
+            "y": 105.41
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 136.652,
+            "y": 105.41
+          }
+        ],
+        "20": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 93.98,
+            "y": 83.82
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 153.67,
+            "y": 127.254
+          }
+        ]
+      },
+      "prefix": "0260",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/NiMH-Charger_NiMH Charger/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "75f5468e9113bba1ddbb9490d1952e05e5ab415cb997a0726dc435a88f75de04",
+      "sample": "NiMH-Charger_NiMH Charger",
+      "target_count": 6,
+      "target_nets": [
+        14,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "terminal_mst_mm": {
+        "14": 3.8100000000000023,
+        "15": 3.8100000000000023,
+        "16": 3.8100000000000023,
+        "17": 3.8100000000000023,
+        "19": 4.318000000000012,
+        "20": 73.82010875093587
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0288_raspberrypi-3-usb-hub_usb_hub",
+      "difficulty": "medium",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/raspberrypi-3-usb-hub_usb_hub/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "2674e9d6e94c6b6beeb166b41d706e206d77de3710c6d634491e7d577b04fce4",
+      "orders": {
+        "mst_easy_first": [
+          11,
+          17,
+          20,
+          26,
+          29,
+          32,
+          14,
+          23
+        ],
+        "mst_hard_first": [
+          14,
+          23,
+          11,
+          17,
+          20,
+          26,
+          29,
+          32
+        ],
+        "natural": [
+          11,
+          14,
+          17,
+          20,
+          23,
+          26,
+          29,
+          32
+        ]
+      },
+      "pad_geometry": {
+        "11": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 101.83,
+            "y": 116.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 115.55,
+            "y": 116.5
+          }
+        ],
+        "14": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 125.96,
+            "y": 116.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 139.68,
+            "y": 116.5
+          }
+        ],
+        "17": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 150.09,
+            "y": 116.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 163.81,
+            "y": 116.5
+          }
+        ],
+        "20": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 174.22,
+            "y": 116.5
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 187.94,
+            "y": 116.5
+          }
+        ],
+        "23": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 139.43,
+            "y": 73.06
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 125.71,
+            "y": 73.06
+          }
+        ],
+        "26": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 115.3,
+            "y": 73.06
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 101.58,
+            "y": 73.06
+          }
+        ],
+        "29": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 163.56,
+            "y": 73.06
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 149.84,
+            "y": 73.06
+          }
+        ],
+        "32": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 187.69,
+            "y": 73.06
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 173.97,
+            "y": 73.06
+          }
+        ]
+      },
+      "prefix": "0288",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/raspberrypi-3-usb-hub_usb_hub/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "95728e9796a450509bb6fb15d9eede10a7669f5d1086f2541d78a209fc144b91",
+      "sample": "raspberrypi-3-usb-hub_usb_hub",
+      "target_count": 8,
+      "target_nets": [
+        11,
+        14,
+        17,
+        20,
+        23,
+        26,
+        29,
+        32
+      ],
+      "terminal_mst_mm": {
+        "11": 13.719999999999999,
+        "14": 13.720000000000013,
+        "17": 13.719999999999999,
+        "20": 13.719999999999999,
+        "23": 13.720000000000013,
+        "26": 13.719999999999999,
+        "29": 13.719999999999999,
+        "32": 13.719999999999999
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0316_kicad-workshop_fancyboard",
+      "difficulty": "medium",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/kicad-workshop_fancyboard/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "73ac02a01afcc3976edc92fe7ff0eee4a55a4fb366f0f9d3ee2d7a18ca995eb7",
+      "orders": {
+        "mst_easy_first": [
+          44,
+          43,
+          4,
+          46,
+          45,
+          31,
+          32
+        ],
+        "mst_hard_first": [
+          32,
+          31,
+          45,
+          46,
+          4,
+          43,
+          44
+        ],
+        "natural": [
+          4,
+          31,
+          32,
+          43,
+          44,
+          45,
+          46
+        ]
+      },
+      "pad_geometry": {
+        "31": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 26.96254,
+            "y": 38.0991
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 56.61,
+            "y": 39.35
+          }
+        ],
+        "32": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 26.96254,
+            "y": 37.4491
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 56.61,
+            "y": 38.85
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 26.96254,
+            "y": 36.7991
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 33.45,
+            "y": 35.56
+          }
+        ],
+        "43": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 24.7777,
+            "y": 29.337
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 24.777,
+            "y": 31.115
+          }
+        ],
+        "44": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 41.148,
+            "y": 46.609
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 41.148,
+            "y": 44.958
+          }
+        ],
+        "45": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 41.148,
+            "y": 43.458
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 56.61,
+            "y": 35.35
+          }
+        ],
+        "46": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 45.72,
+            "y": 41.92
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 56.61,
+            "y": 35.85
+          }
+        ]
+      },
+      "prefix": "0316",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/kicad-workshop_fancyboard/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "cc19357d3978eeab983346bc3de43c025bd2604322a89ce5f470c77559c11e98",
+      "sample": "kicad-workshop_fancyboard",
+      "target_count": 7,
+      "target_nets": [
+        4,
+        31,
+        32,
+        43,
+        44,
+        45,
+        46
+      ],
+      "terminal_mst_mm": {
+        "31": 29.673837555355053,
+        "32": 29.680539167299504,
+        "4": 6.604733610192014,
+        "43": 1.778000137795269,
+        "44": 1.6510000000000034,
+        "45": 17.45889767425194,
+        "46": 12.467437587571876
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0344_mavbridge_mavbridge",
+      "difficulty": "medium",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/mavbridge_mavbridge/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "9a7cf2c1fe420e9ad51b6b983193bcfac89cf1b18833782450c314f090b59841",
+      "orders": {
+        "mst_easy_first": [
+          4,
+          5,
+          12,
+          11,
+          10,
+          18
+        ],
+        "mst_hard_first": [
+          18,
+          10,
+          11,
+          12,
+          5,
+          4
+        ],
+        "natural": [
+          4,
+          5,
+          10,
+          11,
+          12,
+          18
+        ]
+      },
+      "pad_geometry": {
+        "10": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 205.244,
+            "y": 122.809
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 204.445,
+            "y": 120.55
+          }
+        ],
+        "11": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 192.544,
+            "y": 122.809
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 192.445,
+            "y": 120.55
+          }
+        ],
+        "12": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 202.069,
+            "y": 122.75
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 202.445,
+            "y": 120.55
+          }
+        ],
+        "18": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 210.75,
+            "y": 110.0
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 212.2,
+            "y": 112.5
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 206.7433,
+            "y": 124.46
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 206.744,
+            "y": 122.809
+          }
+        ],
+        "5": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 203.5683,
+            "y": 124.46
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 203.569,
+            "y": 122.75
+          }
+        ]
+      },
+      "prefix": "0344",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/mavbridge_mavbridge/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "47630a8f2c9127bbcd7b687bb2d8db4feefd573247f86c79b997454b5643ace7",
+      "sample": "mavbridge_mavbridge",
+      "target_count": 6,
+      "target_nets": [
+        4,
+        5,
+        10,
+        11,
+        12,
+        18
+      ],
+      "terminal_mst_mm": {
+        "10": 2.3961389776054336,
+        "11": 2.261168282105515,
+        "12": 2.2318996393207327,
+        "18": 2.8900692033236792,
+        "4": 1.6510001483949017,
+        "5": 1.7100001432748415
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0376_cat-trainer_teensy_base_pcb",
+      "difficulty": "medium",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/cat-trainer_teensy_base_pcb/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "fbb88c09c9adb68db76b09ed66bb98885098c1c9b25236b93ce5971cde78c055",
+      "orders": {
+        "mst_easy_first": [
+          6,
+          5,
+          1,
+          2,
+          17,
+          15,
+          16,
+          27,
+          24,
+          10,
+          19,
+          7
+        ],
+        "mst_hard_first": [
+          7,
+          19,
+          10,
+          24,
+          27,
+          16,
+          15,
+          17,
+          2,
+          1,
+          5,
+          6
+        ],
+        "natural": [
+          1,
+          2,
+          5,
+          6,
+          7,
+          10,
+          15,
+          16,
+          17,
+          19,
+          24,
+          27
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 139.7,
+            "y": 102.87
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 149.86,
+            "y": 110.49
+          }
+        ],
+        "10": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 124.46,
+            "y": 87.63
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 133.35,
+            "y": 110.49
+          }
+        ],
+        "15": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 139.7,
+            "y": 85.09
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 161.29,
+            "y": 88.9
+          }
+        ],
+        "16": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 139.7,
+            "y": 87.63
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 161.29,
+            "y": 95.25
+          }
+        ],
+        "17": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 139.7,
+            "y": 82.55
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 161.29,
+            "y": 82.55
+          }
+        ],
+        "19": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 124.46,
+            "y": 80.01
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 150.495,
+            "y": 82.55
+          }
+        ],
+        "2": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 139.7,
+            "y": 100.33
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 152.4,
+            "y": 110.49
+          }
+        ],
+        "24": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 107.95,
+            "y": 110.49
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 124.46,
+            "y": 92.71
+          }
+        ],
+        "27": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 139.7,
+            "y": 95.25
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 157.48,
+            "y": 110.49
+          }
+        ],
+        "5": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 139.7,
+            "y": 74.93
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 151.13,
+            "y": 74.93
+          }
+        ],
+        "6": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 139.7,
+            "y": 72.39
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 148.59,
+            "y": 72.39
+          }
+        ],
+        "7": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 124.46,
+            "y": 72.39
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 151.13,
+            "y": 72.39
+          }
+        ]
+      },
+      "prefix": "0376",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/cat-trainer_teensy_base_pcb/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "84465451e5a09baa0fc34624b4e96e85f366c9086cfafd94791de317ae7faf62",
+      "sample": "cat-trainer_teensy_base_pcb",
+      "target_count": 12,
+      "target_nets": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        10,
+        15,
+        16,
+        17,
+        19,
+        24,
+        27
+      ],
+      "terminal_mst_mm": {
+        "1": 12.700000000000014,
+        "10": 24.527774053101517,
+        "15": 21.92359915707273,
+        "16": 22.895250599196338,
+        "17": 21.590000000000003,
+        "19": 26.158609003538405,
+        "2": 16.263935563079446,
+        "24": 24.26331593166935,
+        "27": 23.41764292152393,
+        "5": 11.430000000000007,
+        "6": 8.890000000000015,
+        "7": 26.67
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0400_laptimer58_Chickadee",
+      "difficulty": "hard",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/laptimer58_Chickadee/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "67b9ad0933f14159e7582166a7f3397b951661313653d9587efced03ea817e07",
+      "orders": {
+        "mst_easy_first": [
+          8,
+          20,
+          23,
+          26,
+          24,
+          25
+        ],
+        "mst_hard_first": [
+          25,
+          24,
+          26,
+          23,
+          20,
+          8
+        ],
+        "natural": [
+          8,
+          20,
+          23,
+          24,
+          25,
+          26
+        ]
+      },
+      "pad_geometry": {
+        "20": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 190.7,
+            "y": 104.15
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 188.0,
+            "y": 104.15
+          }
+        ],
+        "23": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 194.55,
+            "y": 92.25
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 192.3,
+            "y": 94.7
+          }
+        ],
+        "24": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 186.93,
+            "y": 92.25
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 201.75,
+            "y": 123.0
+          }
+        ],
+        "25": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 184.39,
+            "y": 92.25
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 199.75,
+            "y": 123.0
+          }
+        ],
+        "26": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 181.85,
+            "y": 92.25
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 193.75,
+            "y": 107.0
+          }
+        ],
+        "8": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 181.525,
+            "y": 115.7007
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 183.35,
+            "y": 115.85
+          }
+        ]
+      },
+      "prefix": "0400",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/laptimer58_Chickadee/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "97acbcc339a742ec47f989dd71754126d5ea4191697180d603e3edc81fd53435",
+      "sample": "laptimer58_Chickadee",
+      "target_count": 6,
+      "target_nets": [
+        8,
+        20,
+        23,
+        24,
+        25,
+        26
+      ],
+      "terminal_mst_mm": {
+        "20": 2.6999999999999886,
+        "23": 3.326409475695981,
+        "24": 34.134951296288676,
+        "25": 34.37283956847325,
+        "26": 18.951846875700536,
+        "8": 1.8310967997350542
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0423_induction-hob_temperature-sender",
+      "difficulty": "hard",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/induction-hob_temperature-sender/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "e899da6698708b89c5456ad5bccbee984699f9639172e3e2d625b95821253d0d",
+      "orders": {
+        "mst_easy_first": [
+          29,
+          4,
+          16,
+          27,
+          21,
+          7
+        ],
+        "mst_hard_first": [
+          7,
+          21,
+          27,
+          16,
+          4,
+          29
+        ],
+        "natural": [
+          4,
+          7,
+          16,
+          21,
+          27,
+          29
+        ]
+      },
+      "pad_geometry": {
+        "16": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 131.525,
+            "y": 139.6
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 131.5,
+            "y": 142.2
+          }
+        ],
+        "21": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 132.795,
+            "y": 139.6
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 147.0,
+            "y": 137.38
+          }
+        ],
+        "27": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 140.3,
+            "y": 134.4
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 144.1,
+            "y": 125.72
+          }
+        ],
+        "29": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 127.6493,
+            "y": 142.4
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 129.3,
+            "y": 142.2
+          }
+        ],
+        "4": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 148.4,
+            "y": 127.2
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 146.3493,
+            "y": 127.1
+          }
+        ],
+        "7": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 134.065,
+            "y": 130.2
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 109.3,
+            "y": 131.84
+          }
+        ]
+      },
+      "prefix": "0423",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/induction-hob_temperature-sender/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "e9e17618b314e3f68b46e3d5c15c6a131dd42996b1a224d0c04c362624c1dc13",
+      "sample": "induction-hob_temperature-sender",
+      "target_count": 6,
+      "target_nets": [
+        4,
+        7,
+        16,
+        21,
+        27,
+        29
+      ],
+      "terminal_mst_mm": {
+        "16": 2.6001201895297017,
+        "21": 14.377427621101083,
+        "27": 9.475357513044033,
+        "29": 1.6627719296403989,
+        "4": 2.0531367441064483,
+        "7": 24.819243038416786
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0473_data-manager_data-manager",
+      "difficulty": "hard",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/data-manager_data-manager/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "34445069b372038560d9632c120803fdcdcaf85f58dae9c14addead15709672e",
+      "orders": {
+        "mst_easy_first": [
+          35,
+          25,
+          56,
+          63,
+          65,
+          69,
+          58,
+          40,
+          42,
+          41,
+          59,
+          60
+        ],
+        "mst_hard_first": [
+          60,
+          59,
+          41,
+          42,
+          40,
+          58,
+          63,
+          65,
+          69,
+          56,
+          25,
+          35
+        ],
+        "natural": [
+          25,
+          35,
+          40,
+          41,
+          42,
+          56,
+          58,
+          59,
+          60,
+          63,
+          65,
+          69
+        ]
+      },
+      "pad_geometry": {
+        "25": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 164.95,
+            "y": 85.85
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 164.7,
+            "y": 82.3
+          }
+        ],
+        "35": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 144.2125,
+            "y": 80.0
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 142.3,
+            "y": 80.0
+          }
+        ],
+        "40": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 164.025,
+            "y": 93.865
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 144.445,
+            "y": 84.0
+          }
+        ],
+        "41": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 176.8,
+            "y": 92.595
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 143.175,
+            "y": 84.0
+          }
+        ],
+        "42": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 159.8,
+            "y": 88.6425
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 136.825,
+            "y": 84.0
+          }
+        ],
+        "56": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 202.35,
+            "y": 87.925
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 197.3,
+            "y": 82.2
+          }
+        ],
+        "58": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 143.8,
+            "y": 105.2
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 159.8,
+            "y": 93.7225
+          }
+        ],
+        "59": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 202.35,
+            "y": 89.025
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 149.255,
+            "y": 88.055
+          }
+        ],
+        "60": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 202.35,
+            "y": 91.225
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 146.985,
+            "y": 101.0
+          }
+        ],
+        "63": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 177.105,
+            "y": 99.92
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 192.405,
+            "y": 99.92
+          }
+        ],
+        "65": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 174.565,
+            "y": 99.92
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 189.865,
+            "y": 99.92
+          }
+        ],
+        "69": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 173.295,
+            "y": 102.46
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 188.595,
+            "y": 102.46
+          }
+        ]
+      },
+      "prefix": "0473",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/data-manager_data-manager/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "a904420be6a61e8f5e2a41023b9e287ccebe02f5c33d1cd283cd5a9b0f913b4f",
+      "sample": "data-manager_data-manager",
+      "target_count": 12,
+      "target_nets": [
+        25,
+        35,
+        40,
+        41,
+        42,
+        56,
+        58,
+        59,
+        60,
+        63,
+        65,
+        69
+      ],
+      "terminal_mst_mm": {
+        "25": 3.5587919298548463,
+        "35": 1.9124999999999943,
+        "40": 21.92474914337677,
+        "41": 34.70611833668525,
+        "42": 23.439356459809236,
+        "56": 7.634011068894239,
+        "58": 19.69093716027757,
+        "59": 53.10385979380406,
+        "60": 56.22129356391578,
+        "63": 15.300000000000011,
+        "65": 15.300000000000011,
+        "69": 15.300000000000011
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0496_kitspace_f-91w",
+      "difficulty": "hard",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/kitspace_f-91w/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "feddabb6aeb28b5a06c3d36fdb05d94f9704d822638ed34cf44f6cb9c96af99e",
+      "orders": {
+        "mst_easy_first": [
+          49,
+          50,
+          24,
+          60,
+          13,
+          30,
+          27,
+          20,
+          10,
+          7,
+          1,
+          46
+        ],
+        "mst_hard_first": [
+          46,
+          1,
+          7,
+          10,
+          20,
+          27,
+          30,
+          13,
+          60,
+          24,
+          50,
+          49
+        ],
+        "natural": [
+          1,
+          7,
+          10,
+          13,
+          20,
+          24,
+          27,
+          30,
+          46,
+          49,
+          50,
+          60
+        ]
+      },
+      "pad_geometry": {
+        "1": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 59.25,
+            "y": 94.05
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 59.4055,
+            "y": 105.741
+          }
+        ],
+        "10": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 51.638,
+            "y": 90.91
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 53.55,
+            "y": 100.75
+          }
+        ],
+        "13": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 53.042,
+            "y": 90.91
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 56.25,
+            "y": 94.05
+          }
+        ],
+        "20": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 55.148,
+            "y": 90.91
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 53.55,
+            "y": 99.75
+          }
+        ],
+        "24": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 61.466,
+            "y": 90.91
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 60.75,
+            "y": 94.05
+          }
+        ],
+        "27": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 67.082,
+            "y": 90.91
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 62.45,
+            "y": 98.25
+          }
+        ],
+        "30": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 64.976,
+            "y": 90.91
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 62.45,
+            "y": 96.75
+          }
+        ],
+        "46": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 59.75,
+            "y": 102.95
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 46.5,
+            "y": 98.6
+          }
+        ],
+        "49": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 69.2555,
+            "y": 94.541
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 68.1555,
+            "y": 95.991
+          }
+        ],
+        "50": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 69.2555,
+            "y": 97.491
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 66.9555,
+            "y": 95.991
+          }
+        ],
+        "60": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 53.55,
+            "y": 97.25
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 50.2,
+            "y": 94.5
+          }
+        ],
+        "7": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 50.234,
+            "y": 90.91
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 53.55,
+            "y": 101.75
+          }
+        ]
+      },
+      "prefix": "0496",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/kitspace_f-91w/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "beb4894330b9b169461393ec2f69cc71ea5206724d7b66d53025f19380d45240",
+      "sample": "kitspace_f-91w",
+      "target_count": 12,
+      "target_nets": [
+        1,
+        7,
+        10,
+        13,
+        20,
+        24,
+        27,
+        30,
+        46,
+        49,
+        50,
+        60
+      ],
+      "terminal_mst_mm": {
+        "1": 11.692034093775131,
+        "10": 10.024038307987459,
+        "13": 4.488971374379657,
+        "20": 8.983273568137625,
+        "24": 3.220598702104937,
+        "27": 8.679344675722929,
+        "30": 6.362882680043694,
+        "46": 13.945787894557986,
+        "49": 1.8200274723201284,
+        "50": 2.7459060435491938,
+        "60": 4.334166586553863,
+        "7": 11.335848269979625
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0546_ozinverter_ozinverterkicad",
+      "difficulty": "hard",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/ozinverter_ozinverterkicad/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "25f266d4450841cb4b0f9bf1690d3cfeff83c4cbfd790f321187f07e0420e7fc",
+      "orders": {
+        "mst_easy_first": [
+          22,
+          40,
+          41,
+          36,
+          28,
+          31,
+          42,
+          43,
+          29,
+          45,
+          32,
+          30
+        ],
+        "mst_hard_first": [
+          30,
+          32,
+          45,
+          29,
+          43,
+          42,
+          31,
+          28,
+          36,
+          41,
+          40,
+          22
+        ],
+        "natural": [
+          22,
+          28,
+          29,
+          30,
+          31,
+          32,
+          36,
+          40,
+          41,
+          42,
+          43,
+          45
+        ]
+      },
+      "pad_geometry": {
+        "22": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 193.142,
+            "y": 146.558
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 190.805,
+            "y": 140.868
+          }
+        ],
+        "28": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 201.295,
+            "y": 149.479
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 197.485,
+            "y": 128.168
+          }
+        ],
+        "29": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 108.255,
+            "y": 141.249
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 137.541,
+            "y": 121.539
+          }
+        ],
+        "30": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 105.715,
+            "y": 141.249
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 138.836,
+            "y": 97.612
+          }
+        ],
+        "31": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 108.255,
+            "y": 136.169
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 137.541,
+            "y": 136.779
+          }
+        ],
+        "32": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 105.715,
+            "y": 136.169
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 138.836,
+            "y": 112.852
+          }
+        ],
+        "36": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 162.382,
+            "y": 148.209
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 158.547,
+            "y": 127.127
+          }
+        ],
+        "40": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 231.013,
+            "y": 148.971
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 237.236,
+            "y": 146.304
+          }
+        ],
+        "41": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 211.506,
+            "y": 126.162
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 204.216,
+            "y": 141.478
+          }
+        ],
+        "42": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 129.921,
+            "y": 126.619
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 163.627,
+            "y": 126.797
+          }
+        ],
+        "43": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 129.921,
+            "y": 131.699
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 163.627,
+            "y": 129.337
+          }
+        ],
+        "45": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 131.216,
+            "y": 107.772
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 163.627,
+            "y": 124.257
+          }
+        ]
+      },
+      "prefix": "0546",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/ozinverter_ozinverterkicad/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "155d7a513ef4d78ebfb226e25ad83b2a35b0568fc36fc4ff5a282fad6e9d9530",
+      "sample": "ozinverter_ozinverterkicad",
+      "target_count": 12,
+      "target_nets": [
+        22,
+        28,
+        29,
+        30,
+        31,
+        32,
+        36,
+        40,
+        41,
+        42,
+        43,
+        45
+      ],
+      "terminal_mst_mm": {
+        "22": 6.151233128406037,
+        "28": 21.648898840356757,
+        "29": 35.3009050308912,
+        "30": 54.783103325751824,
+        "31": 29.292352175952004,
+        "32": 40.50534693099173,
+        "36": 21.4279711825455,
+        "40": 6.770422291113001,
+        "41": 16.96242777434881,
+        "42": 33.70647000206342,
+        "43": 33.788659044123094,
+        "45": 36.362455170133934
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0571_Brushless_ESC_Brushless_ESC",
+      "difficulty": "hard",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/Brushless_ESC_Brushless_ESC/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "3a66518e33d19f5e3f789c15f0b2f051770da1f87f5f641b0030411b099fb9a4",
+      "orders": {
+        "mst_easy_first": [
+          49,
+          19,
+          21,
+          23,
+          40,
+          20,
+          22,
+          24,
+          46,
+          28,
+          32,
+          34
+        ],
+        "mst_hard_first": [
+          34,
+          32,
+          28,
+          46,
+          24,
+          22,
+          20,
+          40,
+          23,
+          21,
+          19,
+          49
+        ],
+        "natural": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          28,
+          32,
+          34,
+          40,
+          46,
+          49
+        ]
+      },
+      "pad_geometry": {
+        "19": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 171.216,
+            "y": 69.469
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 170.116,
+            "y": 66.548
+          }
+        ],
+        "20": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 166.136,
+            "y": 69.469
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 162.878,
+            "y": 66.548
+          }
+        ],
+        "21": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 171.216,
+            "y": 81.026
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 170.116,
+            "y": 77.851
+          }
+        ],
+        "22": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 166.136,
+            "y": 81.026
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 162.878,
+            "y": 77.978
+          }
+        ],
+        "23": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 171.216,
+            "y": 92.964
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 169.99,
+            "y": 89.789
+          }
+        ],
+        "24": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 166.136,
+            "y": 92.964
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 162.878,
+            "y": 89.789
+          }
+        ],
+        "28": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 163.936,
+            "y": 69.469
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 152.75,
+            "y": 61.849
+          }
+        ],
+        "32": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 163.936,
+            "y": 81.026
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 152.784,
+            "y": 71.755
+          }
+        ],
+        "34": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 163.936,
+            "y": 92.964
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 152.784,
+            "y": 81.915
+          }
+        ],
+        "40": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 137.078,
+            "y": 83.244
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 137.924,
+            "y": 87.249
+          }
+        ],
+        "46": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 133.228,
+            "y": 79.394
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 128.16,
+            "y": 79.375
+          }
+        ],
+        "49": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 124.364,
+            "y": 86.36
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 124.396,
+            "y": 88.793
+          }
+        ]
+      },
+      "prefix": "0571",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/Brushless_ESC_Brushless_ESC/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "859a80ad95bad3a89c44c0d090c51a21dbda53e3a57c924477cadc9e9b3e7d4d",
+      "sample": "Brushless_ESC_Brushless_ESC",
+      "target_count": 12,
+      "target_nets": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        28,
+        32,
+        34,
+        40,
+        46,
+        49
+      ],
+      "terminal_mst_mm": {
+        "19": 3.1212563175746944,
+        "20": 4.37570622871326,
+        "21": 3.360152526299955,
+        "22": 4.461487195991946,
+        "23": 3.403483656490799,
+        "24": 4.549196522464165,
+        "28": 13.53480683275532,
+        "32": 14.50236342807614,
+        "34": 15.698646597716637,
+        "40": 4.093377700628171,
+        "46": 5.0680356155023345,
+        "49": 2.4332104306861817
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0599_RGBMatrixPanelCPLD-PhotonBackpack_RGBMatrixPanel_CPLD",
+      "difficulty": "hard",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/RGBMatrixPanelCPLD-PhotonBackpack_RGBMatrixPanel_CPLD/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "1dfdea24db7f4a3b6df0f6f0a3c833a3bf538c696a741fcfa5eeba9fb0f3194e",
+      "orders": {
+        "mst_easy_first": [
+          69,
+          71,
+          66,
+          65
+        ],
+        "mst_hard_first": [
+          65,
+          66,
+          71,
+          69
+        ],
+        "natural": [
+          65,
+          66,
+          69,
+          71
+        ]
+      },
+      "pad_geometry": {
+        "65": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 83.959922,
+            "y": 100.584
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 68.3145,
+            "y": 100.67
+          }
+        ],
+        "66": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 78.569922,
+            "y": 101.854
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 72.6555,
+            "y": 100.67
+          }
+        ],
+        "69": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 74.295,
+            "y": 97.04
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 74.676,
+            "y": 95.619
+          }
+        ],
+        "71": [
+          {
+            "key": "pad_0",
+            "layer": 2,
+            "x": 76.835,
+            "y": 98.54
+          },
+          {
+            "key": "pad_1",
+            "layer": 2,
+            "x": 72.6555,
+            "y": 99.37
+          }
+        ]
+      },
+      "prefix": "0599",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/RGBMatrixPanelCPLD-PhotonBackpack_RGBMatrixPanel_CPLD/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "4e1dd87417d24d421e2b1c455d787b159f527c07c0ff5dac441b93fa45c68e56",
+      "sample": "RGBMatrixPanelCPLD-PhotonBackpack_RGBMatrixPanel_CPLD",
+      "target_count": 4,
+      "target_nets": [
+        65,
+        66,
+        69,
+        71
+      ],
+      "terminal_mst_mm": {
+        "65": 15.645658361286186,
+        "66": 6.031769524284231,
+        "69": 1.4711906742499488,
+        "71": 4.261117253725825
+      }
+    },
+    {
+      "born_closed_excluded": [],
+      "d3_id": "0626_TOBS_HybridChargeController",
+      "difficulty": "hard",
+      "guide_exists": true,
+      "guide_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/TOBS_HybridChargeController/processed_v9_guide_v3.kicad_pcb",
+      "guide_sha256": "67a718c026d1350321d0ea9d48a902867fa316d770597da8b53b67b002030369",
+      "orders": {
+        "mst_easy_first": [
+          28,
+          53,
+          9,
+          33,
+          18,
+          19,
+          17,
+          8,
+          55,
+          13,
+          49,
+          7
+        ],
+        "mst_hard_first": [
+          7,
+          49,
+          13,
+          55,
+          8,
+          17,
+          18,
+          19,
+          33,
+          9,
+          53,
+          28
+        ],
+        "natural": [
+          7,
+          8,
+          9,
+          13,
+          17,
+          18,
+          19,
+          28,
+          33,
+          49,
+          53,
+          55
+        ]
+      },
+      "pad_geometry": {
+        "13": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 164.465,
+            "y": 74.295
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 151.62,
+            "y": 83.0
+          }
+        ],
+        "17": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 147.701,
+            "y": 74.295
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 149.08,
+            "y": 83.0
+          }
+        ],
+        "18": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 145.161,
+            "y": 74.295
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 146.54,
+            "y": 83.0
+          }
+        ],
+        "19": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 142.621,
+            "y": 74.295
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 144.0,
+            "y": 83.0
+          }
+        ],
+        "28": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 127.05,
+            "y": 112.75
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 124.517,
+            "y": 112.8094
+          }
+        ],
+        "33": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 181.55,
+            "y": 50.75
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 175.08,
+            "y": 45.0
+          }
+        ],
+        "49": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 135.0,
+            "y": 98.1
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 124.517,
+            "y": 116.721
+          }
+        ],
+        "53": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 145.5,
+            "y": 54.9
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 143.45,
+            "y": 53.0
+          }
+        ],
+        "55": [
+          {
+            "key": "pad_0",
+            "layer": 1,
+            "x": 132.0,
+            "y": 102.6
+          },
+          {
+            "key": "pad_1",
+            "layer": 1,
+            "x": 124.517,
+            "y": 116.086
+          }
+        ],
+        "7": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 146.685,
+            "y": 122.555
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 154.16,
+            "y": 83.0
+          }
+        ],
+        "8": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 177.165,
+            "y": 74.295
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 173.8,
+            "y": 84.08
+          }
+        ],
+        "9": [
+          {
+            "key": "pad_0",
+            "layer": 0,
+            "x": 174.625,
+            "y": 74.295
+          },
+          {
+            "key": "pad_1",
+            "layer": 0,
+            "x": 173.8,
+            "y": 81.54
+          }
+        ]
+      },
+      "prefix": "0626",
+      "pro_exists": true,
+      "pro_path": "/content/routescout_phase8b_standalone/data/pcbench_work/newdrc/TOBS_HybridChargeController/processed_v9_guide_v3.kicad_pro",
+      "pro_sha256": "39338cdee8ad8ac11c900c4b508f14e0100f6f87ad1b2e623449eb04842d89aa",
+      "sample": "TOBS_HybridChargeController",
+      "target_count": 12,
+      "target_nets": [
+        7,
+        8,
+        9,
+        13,
+        17,
+        18,
+        19,
+        28,
+        33,
+        49,
+        53,
+        55
+      ],
+      "terminal_mst_mm": {
+        "13": 15.51679896112597,
+        "17": 8.813550136012163,
+        "18": 8.813550136012159,
+        "19": 8.813550136012159,
+        "28": 2.533696382757809,
+        "33": 8.655830404992924,
+        "49": 21.369017993347295,
+        "53": 2.7950849718747444,
+        "55": 15.422953186727897,
+        "7": 40.25510712940658,
+        "8": 10.347436880696582,
+        "9": 7.291820760276548
+      }
+    }
+  ],
+  "easy_selected_count": 10,
+  "easy_selection_rule": "first up to 10 eligible in official d3.json order",
+  "easy_source_frame_size": 99,
+  "easy_structurally_eligible_count": 26,
+  "history": {
+    "routing_outcomes_seen_before_v4": false,
+    "v3_eligible_count": 14,
+    "v3_gate_failure": {
+      "minimum_easy": false,
+      "minimum_total": false
+    },
+    "v3_manifest_sha256": "ed230d91500d594cdf9ecda19e02ca757d02bfdbbbe9836e9a9e61797953fd47"
+  },
+  "manifest_sha256": "692357feeaba88bdf978337acd3579233b69cac0edca9172cff1b1b67287fb54",
+  "phase": "08B",
+  "protocol_sha256": "7cbea24ee392b7b29ebf134beb3744135f7038b9a25ee5f2b0898e99bdc8f732",
+  "selection_pre_outcome": true
+}
