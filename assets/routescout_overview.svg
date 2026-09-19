@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">RouteScout workflow overview</title>
+  <desc id="desc">Conceptual flow from an unrouted PCB through geometry and terminal MST to ranked expensive nets, then separating prediction evidence from the open routing-action question.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="520" rx="28" fill="#0b1220"/>
+  <text x="56" y="62" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">RouteScout v1 — from geometry to an engineering decision</text>
+  <text x="56" y="94" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Conceptual workflow; experimental evidence is shown separately in the repository figures.</text>
+
+  <rect x="56" y="150" width="250" height="126" rx="18" fill="#111c2f" stroke="#334155"/>
+  <circle cx="100" cy="194" r="7" fill="#38bdf8"/><circle cx="138" cy="226" r="7" fill="#38bdf8"/><circle cx="190" cy="186" r="7" fill="#38bdf8"/><circle cx="244" cy="232" r="7" fill="#38bdf8"/>
+  <text x="181" y="252" text-anchor="middle" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Unrouted PCB</text>
+
+  <line x1="306" y1="213" x2="380" y2="213" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="394" y="150" width="250" height="126" rx="18" fill="#111c2f" stroke="#334155"/>
+  <text x="519" y="201" text-anchor="middle" fill="#7dd3fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Pre-routing geometry</text>
+  <text x="519" y="232" text-anchor="middle" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">terminal positions</text>
+  <text x="519" y="254" text-anchor="middle" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">spread + context</text>
+
+  <line x1="644" y1="213" x2="718" y2="213" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="732" y="150" width="250" height="126" rx="18" fill="#111c2f" stroke="#334155"/>
+  <line x1="784" y1="230" x2="833" y2="183" stroke="#34d399" stroke-width="4"/>
+  <line x1="833" y1="183" x2="887" y2="226" stroke="#34d399" stroke-width="4"/>
+  <line x1="833" y1="183" x2="922" y2="188" stroke="#34d399" stroke-width="4"/>
+  <circle cx="784" cy="230" r="6" fill="#6ee7b7"/><circle cx="833" cy="183" r="6" fill="#6ee7b7"/><circle cx="887" cy="226" r="6" fill="#6ee7b7"/><circle cx="922" cy="188" r="6" fill="#6ee7b7"/>
+  <text x="857" y="254" text-anchor="middle" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Terminal MST</text>
+
+  <line x1="982" y1="213" x2="1056" y2="213" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="1070" y="150" width="274" height="126" rx="18" fill="#111c2f" stroke="#334155"/>
+  <text x="1207" y="192" text-anchor="middle" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Rank likely high-cost nets</text>
+  <rect x="1120" y="213" width="174" height="12" rx="6" fill="#1e293b"/><rect x="1120" y="213" width="150" height="12" rx="6" fill="#38bdf8"/>
+  <rect x="1120" y="237" width="174" height="12" rx="6" fill="#1e293b"/><rect x="1120" y="237" width="108" height="12" rx="6" fill="#38bdf8"/>
+
+  <line x1="1207" y1="276" x2="1207" y2="326" stroke="#64748b" stroke-width="3"/>
+  <line x1="1207" y1="326" x2="450" y2="326" stroke="#64748b" stroke-width="3"/>
+  <line x1="1207" y1="326" x2="1207" y2="354" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="450" y1="326" x2="450" y2="354" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="230" y="370" width="440" height="104" rx="18" fill="#0f2a25" stroke="#2dd4bf"/>
+  <text x="450" y="407" text-anchor="middle" fill="#5eead4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Prediction: strong held-out evidence</text>
+  <text x="450" y="439" text-anchor="middle" fill="#d1fae5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Geometry ranks observed routed cost well.</text>
+
+  <rect x="990" y="370" width="354" height="104" rx="18" fill="#2a2112" stroke="#f59e0b"/>
+  <text x="1167" y="407" text-anchor="middle" fill="#fbbf24" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Routing action: V2 question</text>
+  <text x="1167" y="439" text-anchor="middle" fill="#fde68a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Which early action actually helps?</text>
+</svg>
